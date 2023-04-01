@@ -10,16 +10,25 @@ import SwiftUI
 struct QuestionnaireView: View {
 	// State properties to keep track of the current question index and user's answers.
 	@State private var currentQuestionIndex = 0
-	@State private var answers: [String] = ["", "", ""]
+	@State private var answers: [String] = ["", "", "", "", "", ""]
 
 	// An array of the questions to be asked in the questionnaire.
-	private let questions = ["What is your current fitness level?", "What is your primary sport?", "What is your goal for this season?"]
+	private let questions = [
+			"What is your current fitness level?",
+			"What is your primary sport?",
+			"What is your goal for this season?",
+			"How many hours per week do you train?",
+			"What is your weakest discipline?",
+			"What is your strongest discipline?"
+	]
 
 	// An array of the options for each question. The options are nested within the questions array.
-	private let options = [
-		["Beginner", "Intermediate", "Advanced"],
-		["Running", "Cycling", "Swimming"],
-		["Complete a race", "Improve my performance", "Maintain my fitness"]
+	private let options = [    ["Beginner", "Intermediate", "Advanced"],
+			["Running", "Cycling", "Swimming"],
+			["Complete a race", "Improve my performance", "Maintain my fitness"],
+			["Less than 5", "5-10", "10-15", "15+"],
+			["Swimming", "Cycling", "Running"],
+			["Running", "Cycling", "Swimming"]
 	]
 	
 	// Each question is displayed to the user one at a time, with the corresponding options displayed as buttons. The user's answer
@@ -93,7 +102,7 @@ struct QuestionnaireView: View {
 					
 					// Define the "Next" or "Submit" button and its functionality
 					Button(action: {
-						if currentQuestionIndex < 2 {
+						if currentQuestionIndex < 5 {
 							withAnimation{
 								currentQuestionIndex += 1
 							}
@@ -101,7 +110,7 @@ struct QuestionnaireView: View {
 							// TODO: Submit the questionnaire and save the answers
 						}
 					}) {
-						Text(currentQuestionIndex == 2 ? "Submit" : "Next")
+						Text(currentQuestionIndex == 5 ? "Submit" : "Next")
 							.font(.custom("HelveticaNeue-Bold", size: 20))
 							.foregroundColor(Color(hue: 0.157, saturation: 0.98, brightness: 1.0))
 							.padding()
@@ -125,7 +134,3 @@ struct ContentView_Previews: PreviewProvider {
       QuestionnaireView()
     }
 }
-
-//Test
-
-
