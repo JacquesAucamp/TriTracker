@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66CADB9829D87DB300EA0057 /* TriTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CADB9729D87DB300EA0057 /* TriTrackerApp.swift */; };
+		66CADB9A29D87DB300EA0057 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CADB9929D87DB300EA0057 /* ContentView.swift */; };
+		66CADB9C29D87DB500EA0057 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CADB9B29D87DB500EA0057 /* Assets.xcassets */; };
+		66CADBA029D87DB500EA0057 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CADB9F29D87DB500EA0057 /* Preview Assets.xcassets */; };
+		66CADBAA29D87DB600EA0057 /* TriTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CADBA929D87DB600EA0057 /* TriTrackerTests.swift */; };
+		66CADBB429D87DB600EA0057 /* TriTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CADBB329D87DB600EA0057 /* TriTrackerUITests.swift */; };
+		66CADBB629D87DB600EA0057 /* TriTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CADBB529D87DB600EA0057 /* TriTrackerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66CADBA629D87DB500EA0057 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66CADB8C29D87DB300EA0057 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66CADB9329D87DB300EA0057;
+			remoteInfo = TriTracker;
+		};
+		66CADBB029D87DB600EA0057 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66CADB8C29D87DB300EA0057 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66CADB9329D87DB300EA0057;
+			remoteInfo = TriTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66CADB9429D87DB300EA0057 /* TriTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CADB9729D87DB300EA0057 /* TriTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriTrackerApp.swift; sourceTree = "<group>"; };
+		66CADB9929D87DB300EA0057 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		66CADB9B29D87DB500EA0057 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66CADB9D29D87DB500EA0057 /* TriTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TriTracker.entitlements; sourceTree = "<group>"; };
+		66CADB9F29D87DB500EA0057 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66CADBA529D87DB500EA0057 /* TriTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CADBA929D87DB600EA0057 /* TriTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriTrackerTests.swift; sourceTree = "<group>"; };
+		66CADBAF29D87DB600EA0057 /* TriTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CADBB329D87DB600EA0057 /* TriTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriTrackerUITests.swift; sourceTree = "<group>"; };
+		66CADBB529D87DB600EA0057 /* TriTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66CADB9129D87DB300EA0057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CADBA229D87DB500EA0057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CADBAC29D87DB600EA0057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66CADB8B29D87DB300EA0057 = {
+			isa = PBXGroup;
+			children = (
+				66CADB9629D87DB300EA0057 /* TriTracker */,
+				66CADBA829D87DB500EA0057 /* TriTrackerTests */,
+				66CADBB229D87DB600EA0057 /* TriTrackerUITests */,
+				66CADB9529D87DB300EA0057 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66CADB9529D87DB300EA0057 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66CADB9429D87DB300EA0057 /* TriTracker.app */,
+				66CADBA529D87DB500EA0057 /* TriTrackerTests.xctest */,
+				66CADBAF29D87DB600EA0057 /* TriTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66CADB9629D87DB300EA0057 /* TriTracker */ = {
+			isa = PBXGroup;
+			children = (
+				66CADB9729D87DB300EA0057 /* TriTrackerApp.swift */,
+				66CADB9929D87DB300EA0057 /* ContentView.swift */,
+				66CADB9B29D87DB500EA0057 /* Assets.xcassets */,
+				66CADB9D29D87DB500EA0057 /* TriTracker.entitlements */,
+				66CADB9E29D87DB500EA0057 /* Preview Content */,
+			);
+			path = TriTracker;
+			sourceTree = "<group>";
+		};
+		66CADB9E29D87DB500EA0057 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				66CADB9F29D87DB500EA0057 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66CADBA829D87DB500EA0057 /* TriTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				66CADBA929D87DB600EA0057 /* TriTrackerTests.swift */,
+			);
+			path = TriTrackerTests;
+			sourceTree = "<group>";
+		};
+		66CADBB229D87DB600EA0057 /* TriTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66CADBB329D87DB600EA0057 /* TriTrackerUITests.swift */,
+				66CADBB529D87DB600EA0057 /* TriTrackerUITestsLaunchTests.swift */,
+			);
+			path = TriTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66CADB9329D87DB300EA0057 /* TriTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66CADBB929D87DB600EA0057 /* Build configuration list for PBXNativeTarget "TriTracker" */;
+			buildPhases = (
+				66CADB9029D87DB300EA0057 /* Sources */,
+				66CADB9129D87DB300EA0057 /* Frameworks */,
+				66CADB9229D87DB300EA0057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TriTracker;
+			productName = TriTracker;
+			productReference = 66CADB9429D87DB300EA0057 /* TriTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66CADBA429D87DB500EA0057 /* TriTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66CADBBC29D87DB600EA0057 /* Build configuration list for PBXNativeTarget "TriTrackerTests" */;
+			buildPhases = (
+				66CADBA129D87DB500EA0057 /* Sources */,
+				66CADBA229D87DB500EA0057 /* Frameworks */,
+				66CADBA329D87DB500EA0057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66CADBA729D87DB500EA0057 /* PBXTargetDependency */,
+			);
+			name = TriTrackerTests;
+			productName = TriTrackerTests;
+			productReference = 66CADBA529D87DB500EA0057 /* TriTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66CADBAE29D87DB600EA0057 /* TriTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66CADBBF29D87DB600EA0057 /* Build configuration list for PBXNativeTarget "TriTrackerUITests" */;
+			buildPhases = (
+				66CADBAB29D87DB600EA0057 /* Sources */,
+				66CADBAC29D87DB600EA0057 /* Frameworks */,
+				66CADBAD29D87DB600EA0057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66CADBB129D87DB600EA0057 /* PBXTargetDependency */,
+			);
+			name = TriTrackerUITests;
+			productName = TriTrackerUITests;
+			productReference = 66CADBAF29D87DB600EA0057 /* TriTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66CADB8C29D87DB300EA0057 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					66CADB9329D87DB300EA0057 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					66CADBA429D87DB500EA0057 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 66CADB9329D87DB300EA0057;
+					};
+					66CADBAE29D87DB600EA0057 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 66CADB9329D87DB300EA0057;
+					};
+				};
+			};
+			buildConfigurationList = 66CADB8F29D87DB300EA0057 /* Build configuration list for PBXProject "TriTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66CADB8B29D87DB300EA0057;
+			productRefGroup = 66CADB9529D87DB300EA0057 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66CADB9329D87DB300EA0057 /* TriTracker */,
+				66CADBA429D87DB500EA0057 /* TriTrackerTests */,
+				66CADBAE29D87DB600EA0057 /* TriTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66CADB9229D87DB300EA0057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CADBA029D87DB500EA0057 /* Preview Assets.xcassets in Resources */,
+				66CADB9C29D87DB500EA0057 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CADBA329D87DB500EA0057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CADBAD29D87DB600EA0057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66CADB9029D87DB300EA0057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CADB9A29D87DB300EA0057 /* ContentView.swift in Sources */,
+				66CADB9829D87DB300EA0057 /* TriTrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CADBA129D87DB500EA0057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CADBAA29D87DB600EA0057 /* TriTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CADBAB29D87DB600EA0057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CADBB429D87DB600EA0057 /* TriTrackerUITests.swift in Sources */,
+				66CADBB629D87DB600EA0057 /* TriTrackerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66CADBA729D87DB500EA0057 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66CADB9329D87DB300EA0057 /* TriTracker */;
+			targetProxy = 66CADBA629D87DB500EA0057 /* PBXContainerItemProxy */;
+		};
+		66CADBB129D87DB600EA0057 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66CADB9329D87DB300EA0057 /* TriTracker */;
+			targetProxy = 66CADBB029D87DB600EA0057 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		66CADBB729D87DB600EA0057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66CADBB829D87DB600EA0057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		66CADBBA29D87DB600EA0057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TriTracker/TriTracker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TriTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JA-Developers.TriTracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66CADBBB29D87DB600EA0057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TriTracker/TriTracker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TriTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JA-Developers.TriTracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66CADBBD29D87DB600EA0057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JA-Developers.TriTrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TriTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TriTracker";
+			};
+			name = Debug;
+		};
+		66CADBBE29D87DB600EA0057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JA-Developers.TriTrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TriTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TriTracker";
+			};
+			name = Release;
+		};
+		66CADBC029D87DB600EA0057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JA-Developers.TriTrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TriTracker;
+			};
+			name = Debug;
+		};
+		66CADBC129D87DB600EA0057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JA-Developers.TriTrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TriTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66CADB8F29D87DB300EA0057 /* Build configuration list for PBXProject "TriTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66CADBB729D87DB600EA0057 /* Debug */,
+				66CADBB829D87DB600EA0057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66CADBB929D87DB600EA0057 /* Build configuration list for PBXNativeTarget "TriTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66CADBBA29D87DB600EA0057 /* Debug */,
+				66CADBBB29D87DB600EA0057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66CADBBC29D87DB600EA0057 /* Build configuration list for PBXNativeTarget "TriTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66CADBBD29D87DB600EA0057 /* Debug */,
+				66CADBBE29D87DB600EA0057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66CADBBF29D87DB600EA0057 /* Build configuration list for PBXNativeTarget "TriTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66CADBC029D87DB600EA0057 /* Debug */,
+				66CADBC129D87DB600EA0057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66CADB8C29D87DB300EA0057 /* Project object */;
+}
